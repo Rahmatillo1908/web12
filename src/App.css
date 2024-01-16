@@ -1,0 +1,101 @@
+.navbarTop {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 40px;
+    align-items: center;
+}
+.navWrapper {
+    width: 90%;
+    margin: 0px auto;
+}
+.nav {
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav b {
+    font-size: 40px;
+}
+.nav .menu {
+    display: flex;
+    gap: 20px;
+}
+.nav .search {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.search .searchForm {
+    display: flex;
+}
+.searchForm input, 
+.searchForm button {
+    border: none;
+    padding: 7px;
+    outline: none;
+    background-color: whitesmoke;
+}
+.searchForm input {
+    border-radius: 5px 0px 0px 5px;
+}
+.searchForm button {
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+/* header  */
+.header {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    height: 350px;
+}
+.header .headerLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.headerLeft .headerText {
+    display: flex;
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    align-items: center;
+    transition: 0.1s;
+    justify-content: space-between;
+}
+.headerText:hover {
+    background-color: black;
+}
+.header .headerRight {
+    flex: 2;
+    padding: 20px 30px;
+    background: right/cover url("./imagePhone.jpg");
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+
+
+.categoryHeader {
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 40px;
+}
+.line {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.times {
+    display: flex;
+    gap: 20px;
+}
