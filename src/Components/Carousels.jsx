@@ -8,7 +8,7 @@ const Carousels = ({h1, time}) => {
         setCarousels(carousels <= 0 ? carousels : carousels - 1)
     }
     const right = ()=>{
-        setCarousels(carousels <= 5 ? carousels+1 :carousels)
+        setCarousels(carousels <= 11 ? carousels+1 :carousels)
     }
     const data = array
     return (
@@ -22,7 +22,7 @@ const Carousels = ({h1, time}) => {
             </div>
             </div>
             <div className="carousels">
-                <div className="caruslesCards" style={{transform:`translateX(-${carousels*100}%)`}} >
+                <div className="caruslesCards" style={{transform:`translateX(-${carousels*410}px)`}} >
                     {data.map(item =>
                         <CarouselCard key={item.id} item={item} />
                     )}

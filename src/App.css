@@ -118,18 +118,18 @@
     align-items: center;
 }
 .caruslesCards {
-    display: flex;
-    width: auto;
+    display: grid;
+    grid-template-columns: repeat(15,1fr);
     gap: 30px;
     transition: 0.3s;
 }
 .carouselCard {
-    width: 350px;
+    width: 380px;
     position: relative;
     text-align: center;
 }
 .carouselCard img {
-    width: 350px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
 }
@@ -145,8 +145,11 @@
 }
 .icons i {
     z-index: 100;
-    text-shadow: 5px 5px 5px  #fff;
+    text-shadow:  0 0 10px rgb(255, 0, 0,0.8), 0 0 10px rgba(255, 0, 0, 0.8);
     transition: 0.2s;
+}
+.icons i:nth-child(2) {
+    text-shadow:  0 0 10px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8);
 }
 .arrows {
     display: flex;
@@ -164,4 +167,8 @@
     align-items: center;
     background-color: grey;
     border-radius: 50%;
+}
+.arrows i:active {
+    background-color: ghostwhite;
+    color: black;
 }
