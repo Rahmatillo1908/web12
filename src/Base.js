@@ -46,7 +46,7 @@ const array = [
         image:"./klaviatura.jpg",
         title:"Softech ST-20",
         price:"93",
-        category:["laptop","computer"]
+        category:["computer"]
     },
     {
         id:7,
@@ -69,5 +69,40 @@ const array = [
         price:"89",
         category:["volume","computer"]
     },
+    {
+        id:10,
+        image:"./laptop.jpg",
+        title:"Adreamer Laptop",
+        price:"390",
+        category:["computer","game"]
+    },
+    {
+        id:11,
+        image:"./laptop2.jpg",
+        title:"Noutbuk Acer Aspire 5",
+        price:"452",
+        category:["computer","game"]
+    },
+    {
+        id:12,
+        image:"./laptop3.jpg",
+        title:"Hp Laptop",
+        price:"510",
+        category:["computer","game"]
+    },
+    {
+        id:13,
+        image:"./printer.jpg",
+        title:"Printer Epson",
+        price:"210",
+        category:["computer"]
+    },
+    {
+        id:14,
+        image:"./printer2.jpg",
+        title:"Printer",
+        price:"129",
+        category:["computer"]
+    }
 ]
 export default array;

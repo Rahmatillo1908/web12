@@ -99,3 +99,69 @@
     display: flex;
     gap: 20px;
 }
+
+
+
+
+/* day -  2 */
+.arrayCarousel {
+    position: relative;
+}
+.carousels {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.titlecarousel {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.caruslesCards {
+    display: flex;
+    width: auto;
+    gap: 30px;
+    transition: 0.3s;
+}
+.carouselCard {
+    width: 350px;
+    position: relative;
+    text-align: center;
+}
+.carouselCard img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+.carouselCard .icons {
+    position: absolute;
+    color: black;
+    display: grid;
+    gap: 20px;
+    font-size: 25px;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+}
+.icons i {
+    z-index: 100;
+    text-shadow: 5px 5px 5px  #fff;
+    transition: 0.2s;
+}
+.arrows {
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    font-size: 30px;
+    align-items: start;
+    z-index: 100;
+}
+.arrows i {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 50%;
+}
