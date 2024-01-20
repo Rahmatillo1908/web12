@@ -172,3 +172,106 @@
     background-color: ghostwhite;
     color: black;
 }
+
+
+
+
+/* about  */
+
+.conatiners {
+    width:90%;
+    margin:0px auto;
+}
+.conatiners .about {
+    display: flex;
+    height: 400px;
+}
+.about .aboutHearderLeft,
+.about .aboutHearderRight {
+    width: 50%;
+}
+.about .aboutHearderLeft {
+    margin: 100px 0px;
+    padding:0px 30px;
+}
+.about .aboutHearderRight img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.about2 {
+    padding:100px 55px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.about2 .aboutCard {
+    border-radius: 10px;
+    border: 1px solid white;
+    text-align: center;
+    padding: 30px;
+    color: black;
+    transition: 0.3s;
+}
+.about2 .aboutCard i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 0px 0px 2px 10px grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    font-size: 25px;
+    transition: 0.3s;
+}
+.aboutCard:hover {
+    background: #DB4444;
+    color: white;
+}
+.aboutCard:hover i {
+    background: white;
+    color: black;
+    box-shadow: 0px 0px 2px 10px rgb(196, 196, 196);
+}
+.aboutCard2 {
+    width: 350px;
+}
+.aboutCard2 img {
+    width: 100%;
+}
+.aboutCard2 .aboutIcons {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+}
+.aboutIcons i {
+    transition: 0.3s;
+}
+.aboutIcons i:hover {
+    text-shadow: 0px 0px 4px whitesmoke;
+}
+
+.aboutFooter {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+.aboutFooter i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 0px 0px 2px 10px grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    font-size: 25px;
+    transition: 0.3s;
+}
