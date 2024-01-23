@@ -22,14 +22,14 @@ const array = [
     },
     {
         id:3,
-        image:"./gamePult2.jpg",
+        image:"./gamepult2.jpg",
         title:"Pult black",
         price:"130",
         category:["game"]
     },
     {
         id:4,
-        image:"./kalonka.jpg",
+        image:"./kalonka.png",
         title:"Charge New",
         price:"50",
         category:["volume"]

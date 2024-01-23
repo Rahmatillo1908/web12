@@ -116,6 +116,7 @@
     justify-content: space-between;
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
 }
 .caruslesCards {
     display: grid;
@@ -188,7 +189,8 @@
 }
 .about .aboutHearderLeft,
 .about .aboutHearderRight {
-    width: 50%;
+    width: 45%;
+    margin: 0px auto;
 }
 .about .aboutHearderLeft {
     margin: 100px 0px;
@@ -238,9 +240,13 @@
 }
 .aboutCard2 {
     width: 350px;
+    padding: 15px;
+    border: 2px solid white;
 }
 .aboutCard2 img {
     width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 .aboutCard2 .aboutIcons {
     display: flex;
@@ -274,4 +280,202 @@
     margin: 0px auto;
     font-size: 25px;
     transition: 0.3s;
+}
+.footerCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+    background: black;
+    margin-top: 50px;
+}
+footer .footers {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .footers .d-flex {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+footer .footers input{
+    background: transparent;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+} 
+footer .footers button{
+    background: transparent;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+}
+footer .footerIcons {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+
+.categoryCards {
+    display: flex;
+    margin-top: 40px;
+    padding:40px 0px;
+}
+.startSection {
+    color: #DB4444;
+    position: relative;
+    padding-left: 30px;
+}
+.startSection::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    left: 0px;
+    border-radius:2px;
+    height: 100%;
+    background: #DB4444;
+}
+.categoryTopHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 0px;
+}
+.categoryCards {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.categoryCards .categoryCard {
+    border: 2px solid white;
+    width: 150px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    transition: 0.3s;
+}
+.categoryCards .categoryCard i {
+ font-size: 40px;
+}
+.categoryCards .categoryCard:hover {
+ color: white;
+ background: #DB4444;
+ box-shadow: 0px 0px 10px 2px #fff;
+}
+
+.newSection {
+    background: black;
+    display: flex;
+}
+.newSectionLeft {
+    padding:50px 30px;
+    width: 40%;
+    margin: 0px auto;
+}
+.newSectionLeft 
+.newSectionRight {
+    width: 40%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newSectionRight img {
+    width: 100%;
+}
+
+
+
+ /* contact  */
+.containe {
+    width: 90%;
+    margin: 0px auto;
+    /* padding: 0px 100px ; */
+}
+.contact {
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+.contactLeft {
+    width: 30%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5); */
+}
+
+.contact .contactIcons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.contactIcons i {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 25px;
+    background-color: #DB4444;
+}
+
+
+.contactRight {
+    width: 60%;
+    /* background-color: dodgerblue; */
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.contactRight input {
+    width: 30%;
+    margin: 0px auto;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    text-indent: 10px;
+    outline: none;
+}
+.contactRight textarea {
+    min-width: calc(100% - 10px);
+    min-height: 100px;
+    padding: 10px 0px 0px 10px;
+    max-height: 300px;
+    margin: 0px auto;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.contactRight div {
+    width: 100%;
+    margin-top: 20px;
+    text-align: end;
+}
+.contactRight button {
+    padding: 15px 60px;
+    background: #DB4444;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    outline: none;
 }

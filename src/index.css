@@ -1,6 +1,10 @@
-#root , body , html {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+}
+#root , body , html {
   box-sizing: border-box;
   color: white;
   background-color: #1f1f1f;
@@ -12,4 +16,15 @@ a {
 }
 i {
   cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+.main {
+  width: 200px;
+  height: 200px;
+  margin: 100px;
+  border: 2px solid black;
+  border-color: green yellow white;
+  
 }
